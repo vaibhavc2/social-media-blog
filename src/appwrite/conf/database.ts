@@ -1,5 +1,5 @@
 import { config } from "../../config";
-import { Client, ID, Databases, Storage, Query } from "appwrite";
+import { Client, Databases, Query } from "appwrite";
 import { Post, UpdatePost } from "../../types";
 
 const {
