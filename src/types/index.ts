@@ -1,4 +1,5 @@
-import { ConfigType } from "./ConfigType";
-import { User } from "./User";
+import { Config } from "./Config.type";
+import { User, UserLogin } from "./User.type";
+import { Post, UpdatePost } from "./Post.type";
 
-export type { ConfigType, User };
+export type { Config, User, Post, UserLogin, UpdatePost };

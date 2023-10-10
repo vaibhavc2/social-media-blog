@@ -1,4 +1,4 @@
-export interface ConfigType {
+export interface Config {
   appwriteUrl: string;
   appwriteProjectId: string;
   appwriteDatabaseId: string;
