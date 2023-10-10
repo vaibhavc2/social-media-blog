@@ -3,5 +3,6 @@ import { User, UserLogin } from "./User.type";
 import { Post, UpdatePost } from "./Post.type";
 import { Auth } from "./Auth.type";
 import { Theme } from "./Theme.type";
+import { Loading } from "./Loading.type";
 
-export type { Config, User, Post, UserLogin, UpdatePost, Auth, Theme };
+export type { Config, User, Post, UserLogin, UpdatePost, Auth, Theme, Loading };

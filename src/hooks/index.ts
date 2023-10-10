@@ -1,4 +1,4 @@
-import useLogin from "./auth/useLogin";
-import useLogout from "./auth/useLogout";
+import useAuth from "./auth/useAuth";
+import useLoading from "./loading/useLoading";
 
-export { useLogin, useLogout };
+export { useAuth, useLoading };
