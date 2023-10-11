@@ -1,5 +1,5 @@
 import { toggleLoading } from "../../store/features/loading/loadingSlice";
-import { useAppDispatch, useAppSelector } from "../../store/store";
+import { useAppDispatch, useAppSelector } from "../../store";
 
 const useLoading = () => {
   const loading = useAppSelector((state) => state.loadingReducer.loading);

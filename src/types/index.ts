@@ -5,6 +5,7 @@ import { Auth } from "./Auth.type";
 import { Theme } from "./Theme.type";
 import { Loading } from "./Loading.type";
 import { NavItem } from "./NavItem.type";
+import { NewableClass } from "./NewableClass.type";
 
 export type {
   Config,
@@ -15,5 +16,6 @@ export type {
   Auth,
   Theme,
   Loading,
-  NavItem
+  NavItem,
+  NewableClass
 };

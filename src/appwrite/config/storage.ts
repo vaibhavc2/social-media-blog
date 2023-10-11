@@ -3,7 +3,7 @@ import { Client, ID, Storage } from "appwrite";
 
 const { appwriteUrl, appwriteProjectId, appwriteBucketId } = config;
 
-class StorageService {
+export class StorageService {
   client = new Client();
   storage;
 

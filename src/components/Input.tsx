@@ -1,4 +1,4 @@
-import { ComponentProps, ForwardedRef, forwardRef, useId, useRef } from "react";
+import { ComponentProps, ForwardedRef, forwardRef, useId } from "react";
 import { twMerge } from "tailwind-merge";
 
 type Props = {

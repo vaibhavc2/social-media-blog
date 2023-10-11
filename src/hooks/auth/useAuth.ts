@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useAppDispatch } from "../../store/store";
-import authService from "../../appwrite/auth";
+import { useAppDispatch } from "../../store";
+import { authService } from "../../appwrite/auth";
 import { login, logout } from "../../store/features/auth/authSlice";
 import { toggleLoading } from "../../store/features/loading/loadingSlice";
 

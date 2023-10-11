@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { LoginForm, Logo } from "../../components";
+import { Logo } from "../../components";
+import SignUpForm from "../../components/SignUpForm";
 
-type Props = {};
-
-const Login = ({}: Props) => {
+const Signup = () => {
   return (
-    <div className="flex w-full items-center justify-center">
+    <div className="flex items-center justify-center">
       <div
         className={`mx-auto w-full max-w-lg rounded-xl border border-black/10 bg-gray-100 p-10`}
       >
@@ -15,22 +14,22 @@ const Login = ({}: Props) => {
           </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight">
-          Sign in to your account
+          Sign up to create account
         </h2>
         <p className="mt-2 text-center text-base text-black/60">
-          Don&apos;t have any account?&nbsp;
+          Already have an account?&nbsp;
           <Link
-            to="/signup"
+            to="/login"
             className="text-primary font-medium transition-all duration-200 hover:underline"
           >
-            Sign Up
+            Sign In
           </Link>
         </p>
 
-        <LoginForm />
+        <SignUpForm />
       </div>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

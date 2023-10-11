@@ -1,5 +1,5 @@
 import { nanoid } from "@reduxjs/toolkit";
-import { useAppSelector } from "../../store/store";
+import { useAppSelector } from "../../store";
 import { NavItem } from "../../types";
 import { useCallback, useEffect, useState } from "react";
 

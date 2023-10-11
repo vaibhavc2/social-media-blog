@@ -1,10 +1,10 @@
-import { config } from "../config";
+import { config } from "../../config";
 import { Client, Account, ID } from "appwrite";
-import { User, UserLogin } from "../types";
+import { User, UserLogin } from "../../types";
 
 const { appwriteUrl, appwriteProjectId } = config;
 
-class AuthService {
+export class AuthService {
   client = new Client();
   account;
 

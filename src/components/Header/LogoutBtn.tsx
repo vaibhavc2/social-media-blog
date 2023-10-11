@@ -1,6 +1,6 @@
-import authService from "../../appwrite/auth";
+import { authService } from "../../appwrite/auth";
 import { logout } from "../../store/features/auth/authSlice";
-import { useAppDispatch } from "../../store/store";
+import { useAppDispatch } from "../../store";
 
 const LogoutBtn = () => {
   const dispatch = useAppDispatch();

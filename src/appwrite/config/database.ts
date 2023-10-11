@@ -9,7 +9,7 @@ const {
   appwriteCollectionId
 } = config;
 
-class DatabaseService {
+export class DatabaseService {
   client = new Client();
   databases;
 
